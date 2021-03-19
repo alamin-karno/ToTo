@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".SelectActivity">
+
+
+    <Button
+        android:onClick="pickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pickup"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:padding="15dp"/>
+
+    <Button
+        android:onClick="drop_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drop Out"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:padding="15dp"/>
+
+</LinearLayout>

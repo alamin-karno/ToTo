@@ -25,7 +25,7 @@ public class AleartActivity extends AppCompatActivity {
 
         value = getIntent().getStringExtra(VALUE);
 
-        if(value.equals(SelectActivity.PICK_UP)){
+        if(value.equals(SelectActivity.DROP_OUT)){
             alertTV.setText("Please Wait...");
             loopAnimation.setVisibility(View.VISIBLE);
             seatBeltAnimation.setVisibility(View.GONE);
